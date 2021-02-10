@@ -1,0 +1,23 @@
+.bottom {
+  width: 820px;
+  padding-top: 15px;
+  padding-bottom: 11px;
+}
+
+.bottom__list {
+  display: flex;
+}
+
+.bottom__item {
+  margin-left: 44px;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.bottom__item-link {
+  @include font-xs;
+  color: $header-text-color;
+  font-weight: 700;
+}
