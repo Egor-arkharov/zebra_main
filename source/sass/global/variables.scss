@@ -1,5 +1,5 @@
-// $main-font: "Golos", "Аrial", sans-serif;
-// $main-font-bold: "Golos_Bold", "Аrial", sans-serif;
+$header-font: "PT Sans", "Georgia", serif;
+$slider-font: "Rostelecom Basis", "Аrial", sans-serif;
 
 $body-color: #ffffff;
 $text-color: #303030;
@@ -14,26 +14,22 @@ $background-color-4: #9bd6e3;
 
 
 $font-size-xxs: 14px;
-$line-height-xxs: 14.9px;
+$line-height-xxs: 25px;
 
 $font-size-xs: 16px;
-$line-height-xs: 16.56px;
+$line-height-xs: 16px;
 
 $font-size-s: 18px;
-$line-height-s: 23.29px;
+$line-height-s: 24px;
 
 $font-size-m: 24px;
-$line-height-m: 26.4px;
+$line-height-m: 26px;
 
-$font-size-l: 39px;
-$line-height-l: 45.31px;
+$font-size-l: 35px;
+$line-height-l: 43px;
 
 $font-size-xl: 48px;
-$line-height-xl: 61.97px;
+$line-height-xl: 62px;
 
 $font-size-xxl: 120px;
-$line-height-xxl: 154.92px;
-
-
-// $desktop-width: 1024px;
-// $desktop-padding: 220px;
+$line-height-xxl: 120px;

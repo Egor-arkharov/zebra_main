@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: $text-color;
+  padding-left: 260px;
+  padding-right: 130px;
+}
+
+.card__img {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -480px * 0.5;
+}
+
+.card__left {
+  width: 340px;
+  padding-top: 88px;
+}
+
+.card__left-title {
+  @include font-l;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.card__left-text {
+  @include font-m;
+}
+
+.card__right {
+  width: 395px;
+  padding-top: 193px;
+}
+
+.card__right-value {
+  @include font-xxl;
+}
+
+.card__right-sum {
+  @include font-xl;
+}
+
+.card__right-text {
+  @include font-m;
+  width: 340px;
+  margin-left: 15px;
+}

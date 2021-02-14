@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -13,10 +14,15 @@ body {
   padding: 0;
 
   min-width: 1024px;
+  max-width: 1920px;
+  height: 100%;
 
-  // font-family: $main-font;
+  font-family: $header-font;
   color: $text-color;
   background-color: $body-color;
+
+  display: flex;
+  flex-direction: column;
 }
 
 img {
