@@ -4,6 +4,7 @@
   const swiper = new Swiper('.swiper', {
     loop: true,
     loopFillGroupWithBlank: true,
+    effect: 'fade',
     pagination: {
       el: '.swiper__pagination',
       clickable: true,
