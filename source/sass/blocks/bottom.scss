@@ -1,7 +1,8 @@
 .bottom {
+  flex-grow: 1;
+
   padding-top: 11px;
   padding-bottom: 13px;
-  flex-grow: 1;
 }
 
 .bottom__list {
@@ -10,8 +11,9 @@
 }
 
 .bottom__item {
-  margin-right: 44px;
   width: min-content;
+  margin-right: 44px;
+  margin-bottom: 5px;
 
   &:last-child {
     margin: 0;
@@ -21,9 +23,10 @@
 
 .bottom__item-link {
   @include font-xs;
+  display: block;
+
   color: $header-text-color;
   font-weight: 700;
-  display: block;
 
   &:focus,
   &:active {

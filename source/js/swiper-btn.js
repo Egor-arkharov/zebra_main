@@ -1,3 +1,5 @@
+'use strict';
+
 const container = document.querySelector(`.swiper`)
 
 container.addEventListener(`click`, function (evt) {
