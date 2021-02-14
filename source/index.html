@@ -7,12 +7,14 @@
     <meta name="description" content="Главная">
     <title>Main Page</title>
     <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preload" href="./fonts/pt-sans-bold.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="./fonts/rostelecom-basis-reg.woff2" as="font" type="font/woff2" crossorigin="">
   </head>
   <body>
     <header class="header">
       <div class="header__wrapper">
-        <a class="header__logo-link" href="#">
-          <img class="header__logo-image" src="img/icons/logo@1x.png" alt="Логотип Зебра" width="191.23" height="81.9">
+        <a class="header__logo-link" href="index.html">
+          <img class="header__logo-img" src="img/icons/logo.svg" alt="Логотип Зебра">
         </a>
 
         <div class="header__content">
@@ -44,18 +46,76 @@
               <li class="bottom__item"><a class="bottom__item-link" href="#">Результаты деятельности</a></li>
               <li class="bottom__item"><a class="bottom__item-link" href="#">Корпоративное управление</a></li>
               <li class="bottom__item"><a class="bottom__item-link" href="#">Акционерный капитал и распределение прибыли</a></li>
-
             </ul>
           </nav>
 
         </div>
-
-
-
       </div>
     </header>
-    <main>
-
+    <main class="main">
+      <div class="swiper">
+        <ul class="swiper__wrapper">
+            <li class="swiper__slide swiper__slide-1">
+              <article class="swiper__card card">
+                <div class="card__left">
+                  <h2 class="card__left-title">Название раздела 1</h2>
+                  <p class="card__left-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc. Cras pulvinar mattis nunc sed blandit libero. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Mauris a diam maecenas sed. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Sem nulla pharetra diam sit amet nisl suscipit adipiscing. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Id velit ut tortor pretium viverra suspendisse.</p>
+                </div>
+                <div class="card__right">
+                  <p class="card__right-value">100 <span class="card__right-sum">тыс.</span></p>
+                  <p class="card__right-text">Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel. Vel eros donec ac odio tempor orci dapibus ultrices in. Nunc faucibus a pellentesque sit. Quis risus sed vulputate odio ut enim blandit. Odio aenean sed adipiscing diam donec adipiscing tristique. In massa tempor nec feugiat nisl pretium fusce id. Porttitor eget dolor morbi non arcu risus quis varius. Vitae ultricies leo integer malesuada nunc.</p>
+                </div>
+                <img class="card__img" src="img/card_img-1@1x.png" alt="#" width="480" height="750">
+              </article>
+            </li>
+            <li class="swiper__slide swiper__slide-2">
+              <article class="swiper__card card">
+                <div class="card__left">
+                  <h2 class="card__left-title">Название раздела 2</h2>
+                  <p class="card__left-text">Mauris a diam maecenas sed enim. Eget aliquet nibh praesent tristique magna. Nisl nisi scelerisque eu ultrices vitae auctor eu. Scelerisque fermentum dui faucibus in ornare. Habitasse platea dictumst quisque sagittis purus sit. Semper viverra nam libero justo. Ac felis donec et odio pellentesque. Quis vel eros donec ac odio tempor orci. Sed pulvinar proin gravida hendrerit. Enim sit amet venenatis urna cursus eget nunc scelerisque. Donec et odio pellentesque diam volutpat commodo sed. Laoreet id donec ultrices tincidunt arcu non sodales neque sodales. Mi proin sed libero enim. </p>
+                </div>
+                <div class="card__right">
+                  <p class="card__right-value">300 <span class="card__right-sum">тыс.</span></p>
+                  <p class="card__right-text">Augue eget arcu dictum varius duis at consectetur lorem donec. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Quam id leo in vitae turpis massa. Sollicitudin nibh sit amet commodo nulla. Ultricies lacus sed turpis tincidunt. In fermentum et sollicitudin ac orci phasellus egestas tellus.</p>
+                </div>
+                <img class="card__img" src="img/card_img-2@1x.png" alt="#" width="480" height="750">
+              </article>
+            </li>
+            <li class="swiper__slide swiper__slide-3">
+              <article class="swiper__card card">
+                <div class="card__left">
+                  <h2 class="card__left-title">Название раздела 3</h2>
+                  <p class="card__left-text">Praesent semper feugiat nibh sed pulvinar proin gravida. Arcu dictum varius duis at consectetur lorem donec massa sapien. Turpis egestas pretium aenean pharetra magna ac. Eget lorem dolor sed viverra ipsum nunc. Semper auctor neque vitae tempus quam pellentesque. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Mauris rhoncus aenean vel elit. Adipiscing tristique risus nec feugiat. Ultrices vitae auctor eu augue ut lectus arcu bibendum at.</p>
+                </div>
+                <div class="card__right">
+                  <p class="card__right-value">500 <span class="card__right-sum">тыс.</span></p>
+                  <p class="card__right-text">Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. Convallis convallis tellus id interdum velit laoreet id. Erat pellentesque adipiscing commodo elit at. Orci eu lobortis elementum nibh. Dapibus ultrices in iaculis nunc sed augue lacus. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Vulputate dignissim suspendisse in est ante. </p>
+                </div>
+                <img class="card__img" src="img/card_img-3@1x.png" alt="#" width="750" height="750">
+              </article>
+            </li>
+            <li class="swiper__slide swiper__slide-4">
+              <article class="swiper__card card">
+                <div class="card__left">
+                  <h2 class="card__left-title">Название раздела 4</h2>
+                  <p class="card__left-text">Quis viverra nibh cras pulvinar mattis nunc sed. Dui nunc mattis enim ut tellus elementum sagittis vitae. Erat nam at lectus urna duis convallis convallis. Aliquet sagittis id consectetur purus ut. Fames ac turpis egestas integer. Dignissim convallis aenean et tortor at risus viverra. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Egestas integer eget aliquet nibh praesent tristique magna sit amet. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. </p>
+                </div>
+                <div class="card__right">
+                  <p class="card__right-value">1000 <span class="card__right-sum">тыс.</span></p>
+                  <p class="card__right-text">Turpis massa sed elementum tempus egestas sed sed risus. Nisi vitae suscipit tellus mauris a diam. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Quis vel eros donec ac odio tempor orci dapibus ultrices.</p>
+                </div>
+                <img class="card__img" src="img/card_img-4@1x.png" alt="#" width="550" height="750">
+              </article>
+            </li>
+        </ul>
+        <button class="swiper__pagination"></button>
+        <button class="swiper__button swiper__button-prev"></button>
+        <button class="swiper__button swiper__button-next"></button>
+      </div>
     </main>
+
+    <script src="js/swiper.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/swiper-btn.js"></script>
   </body>
 </html>

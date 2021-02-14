@@ -1,15 +1,15 @@
-// @font-face {
-//   font-family: "Golos";
-//   src: url("../fonts/Golos_Regular.woff2") format("woff2"), url("../fonts/Golos_Regular.woff") format("woff");
-//   font-weight: 400;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2"), url("../fonts/pt-sans-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
-// @font-face {
-//   font-family: "Golos_Bold";
-//   src: url("../fonts/Golos_Bold.woff2") format("woff2"), url("../fonts/Golos_Bold.woff") format("woff");
-//   font-weight: 800;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Rostelecom Basis";
+  src: url("../fonts/rostelecom-basis-reg.woff2") format("woff2"), url("../fonts/rostelecom-basis-reg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

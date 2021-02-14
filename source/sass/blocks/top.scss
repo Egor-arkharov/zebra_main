@@ -1,24 +1,43 @@
-.top  {
+.top {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgba(0, 56, 131, 0.4);
 }
 
+.top__left {
+  padding-top: 7px;
+}
+
 .top__left-title {
   @include font-s;
   color: $header-title-color;
-  margin-top: 10px;
 }
 
 .top__right {
-  margin-right: 0;
-  padding: 13px 232px 13px 42px;
+  position: relative;
+  min-width: 555px;
+  padding-top: 9px;
+  padding-left: 40px;
+  padding-bottom: 5px;
   background: linear-gradient(270deg, #003883 0%, #0061A1 97.05%);
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 15px solid $body-color;
+    border-bottom: 40px solid transparent;
+  }
 }
 
 .top__right-list {
   display: flex;
   align-items: center;
+  height: 25px;
 }
 
 .top__right-item {
@@ -32,11 +51,17 @@
 .top__right-button {
   @include font-xxs;
   color: $body-color;
+
+  &:focus,
+  &:active {
+    outline: 1px solid $body-color;
+    outline-offset: 3px;
+  }
 }
 
 .top__right-button--search {
-  width: 20.31px;
-  height: 20.31px;
+  width: 22px;
+  height: 21px;
 
   background-image: url("../img/icons/search.svg");
   background-repeat: no-repeat;
@@ -53,11 +78,6 @@
   background-position: center;
   background-size: contain;
 }
-
-// Width
-// 19px
-// Height
-// 22px
 
 .top__right-button--save,
 .top__right-button--language {

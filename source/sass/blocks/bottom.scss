@@ -1,18 +1,21 @@
 .bottom {
-  width: 820px;
-  padding-top: 15px;
-  padding-bottom: 11px;
+  padding-top: 11px;
+  padding-bottom: 13px;
+  flex-grow: 1;
 }
 
 .bottom__list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .bottom__item {
-  margin-left: 44px;
+  margin-right: 44px;
+  width: min-content;
 
-  &:first-child {
+  &:last-child {
     margin: 0;
+    width: 215px;
   }
 }
 
@@ -20,4 +23,11 @@
   @include font-xs;
   color: $header-text-color;
   font-weight: 700;
+  display: block;
+
+  &:focus,
+  &:active {
+    outline: 1px solid $text-color;
+    outline-offset: 3px;
+  }
 }
